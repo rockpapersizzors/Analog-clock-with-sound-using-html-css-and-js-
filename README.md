@@ -6,13 +6,14 @@ The main concept in this is i use --cssvariables  (initalization ) , var(--cssva
  You have to write that property in style of that element with a variable and you can give different variables for different elements . 
  ex : 
  HTML
+ * ` ```html `
 <div class="container">
   <div class="square rot-1">1</div>
   <div class="square rot-2">2</div>
   <div class="square rot-3">3</div>
   </div>
 CSS
-
+* ` ```css `
 CSS
 /* The shared class */
 .square {
